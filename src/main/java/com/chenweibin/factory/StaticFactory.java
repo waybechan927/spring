@@ -1,7 +1,7 @@
 package com.chenweibin.factory;
 
-import com.chenweibin.UserDao;
-import com.chenweibin.impl.UserDaolmpl;
+import com.chenweibin.Dao.UserDao;
+import com.chenweibin.Dao.impl.UserDaolmpl;
 
 /**
  * @author waybechan

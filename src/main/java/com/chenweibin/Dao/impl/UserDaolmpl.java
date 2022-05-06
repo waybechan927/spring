@@ -1,6 +1,6 @@
-package com.chenweibin.impl;
+package com.chenweibin.Dao.impl;
 
-import com.chenweibin.UserDao;
+import com.chenweibin.Dao.UserDao;
 
 /**
  * @author waybechan

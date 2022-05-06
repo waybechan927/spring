@@ -1,10 +1,8 @@
 package com.chenweibin.test;
 
-import com.chenweibin.UserDao;
+import com.chenweibin.Dao.UserDao;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.beans.Transient;
 
 /**
  * @author waybechan

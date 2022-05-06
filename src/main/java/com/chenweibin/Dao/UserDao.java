@@ -1,4 +1,4 @@
-package com.chenweibin;
+package com.chenweibin.Dao;
 
 /**
  * @author waybechan
