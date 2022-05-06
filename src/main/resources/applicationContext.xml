@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="userDao" class="com.chenweibin.impl.UserDaolmpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>
+<!--   静态工厂 <bean id="userDao" class="com.chenweibin.factory.StaticFactory" factory-method="getUserDao"></bean>-->
+<!--动态工程        <bean id="factory" class="com.chenweibin.factory.DynamicFactory"></bean>-->
+<!--        <bean id="userDao" factory-bean="factory" factory-method="getUserDao" ></bean>-->
+
+</beans>
